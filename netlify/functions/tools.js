@@ -1,4 +1,4 @@
-import { sql } from '../_db.js';
+import { query, sql } from '../_db.js';
 
 export async function handler(event) {
   try {
