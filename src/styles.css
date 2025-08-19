@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Simple utility */
+.card {
+  @apply bg-white rounded-2xl shadow p-5;
+}
